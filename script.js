@@ -131,8 +131,8 @@ var tl = gsap.timeline()
 tl.to(".circo1",{
     scale:1,
     opacity:1,
-    delay:0.5,
-    stagger:0.6,
+    delay:0.2,
+    stagger:10,
     scrollTrigger:{
         scroller:"#main",
         trigger:".page6",
